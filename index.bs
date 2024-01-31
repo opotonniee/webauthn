@@ -6505,7 +6505,7 @@ some extension outputs should not be sent to the [=[RP]=].
 Note: In [[!FIDO-CTAP]] [=unsigned extension outputs=] are returned as a CBOR map in a top-level field named
 `unsignedExtensionOutputs` from both [=authenticatorMakeCredential=] and [=authenticatorGetAssertion=].
 
-For each supported extension, the [=authenticator extension processing=] rule for that extension is used create the
+For each supported extension, the [=authenticator extension processing=] rule for that extension is used to create the
 [=authenticator extension output=], and [=unsigned extension output=] if used, from the [=authenticator extension input=]
 and possibly also other inputs.
 There MUST NOT be any values returned for ignored extensions.
